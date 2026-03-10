@@ -1,0 +1,52 @@
+* {
+    margin: auto;
+    padding: 20px;
+}
+
+/*Qs1.Add a 2s transition on box1 for width changes.It should have'ease-in'speed curve & 0.5sdelay*/
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    transition: 2s ease-in 0.5s;
+}
+#box1:hover {
+    width: 600px;
+}
+
+/* Qs2.Using transform, move box2 200px to the right &200px down.Also rotate it 90deg. */
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+/* #box2:hover {
+    /* transform: translate(100px, 100px) rotate(90deg); } */
+
+
+/* Qs3.Using transform,skew box3 20deg along the X-axis */
+
+#box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#box3:hover {
+    transform: skew(20deg);
+
+}
+/* Qs4.Seta 2px horizontal & 2px vertical , green shado for box4, with a 5px blur radius */
+
+#box4 {
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+}
+
+#box4:hover {
+    box-shadow: 2px 2px 5px green;
+
+}
