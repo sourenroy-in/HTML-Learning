@@ -1,0 +1,109 @@
+/* Universal Selector */
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Element selector */
+
+h1,h3 {
+    color:#b92b27;
+}
+
+/* ID Selector */
+
+#login {
+    background-color: aliceblue;
+    color: black;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class Selector */
+
+.upvote{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+/* Descendent Selector */
+
+.post a{
+    color: red;
+    background-color: yellow;
+}
+
+
+nav ul li a {
+    color: pink;
+/* nav a Can use */
+}
+
+/* Adjacent Sibling Combinator */
+
+p + h3 {
+    text-decoration: underline;
+}
+
+
+.upvote + button {
+    background-color: greenyellow;
+    font-family: 'Times New Roman';
+}
+
+/* Child Combinator */
+
+div > input {
+    background-color: cornsilk;
+}
+
+/* Attribute Selecctor */
+
+input[type = "text"]{
+    color: red;
+}
+
+input[type = "pasword"]{
+    color: gray;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* Pseudo Class */
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+h3:hover {
+    text-decoration: overline;
+}
+
+button:active {
+    background-color: magenta;
+    color: black;
+}
+
+p:active{
+    color: blue;
+    font-weight: 900;
+
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(53){
+    background-color: chartreuse;
+}
+
+#myID p {
+    color: green;
+}
