@@ -22,3 +22,7 @@ app.listen(3000, () => {
 
 
 // *Ports are the logical endpoints of a network connection that is used to exchange information between a web server and a web client.
+
+app.use(req,res) => {
+  console.log("Request Received");
+});
