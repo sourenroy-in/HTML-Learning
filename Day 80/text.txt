@@ -1,0 +1,37 @@
+Today I learn about SQL
+
+create database college;
+
+# QS 1
+create table student_info(
+Roll_No int primary key,
+Name varchar(30),
+city varchar(30),
+marks int
+);
+
+insert into student_info values (110, "adam", "Delhi", 76);
+insert into student_info values(108, "bob", "Mumbai", 65),(124, "casey", "Pune", 94);
+insert into student_info values(112, "duke", "pune", 80);
+
+select * from student_info;
+
+select name,marks from student_info where marks >= 75;
+
+
+select distinct city from student_info;
+select city from student_info group by city;
+
+select city,max(marks) from student_info group by city;
+
+select avg(marks) from student_info;
+
+alter Table student_info add column Grade varchar(20);
+
+set sql_safe_updates = 0;
+
+update student_info set grade = "O" where marks>=80;
+update student_info set grade = "A" where marks<=80 and marks>=70;
+update student_info set grade = "B" where marks<=70;
+
+
