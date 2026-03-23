@@ -35,3 +35,22 @@ update student_info set grade = "A" where marks<=80 and marks>=70;
 update student_info set grade = "B" where marks<=70;
 
 
+# QS 2
+create table teacher_info(
+id int primary key,
+name varchar(30),
+subject varchar(30),
+salary int );
+
+select * from teacher_info;
+
+insert into teacher_info value (23, "ajay", "math", 50000);
+insert into teacher_info values
+(47, "bharat", "english", 60000),
+(18, "chetan", "chemistery", 45000),
+(9, "diva", "physics", 75000); 
+
+
+select name, salary from teacher_info where salary>=55000;
+
+alter table teacher_info
