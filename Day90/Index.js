@@ -1,2 +1,1 @@
-// Mongo DB Day 1
-
+// MongoDB Day 1
