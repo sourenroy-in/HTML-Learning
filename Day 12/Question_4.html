@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" />
+        <br><br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="gender" id="Male" value="Male" />
+        <label for="Male">Male</label>
+
+        <input type="radio" name="gender" id="Female" value="Female" />
+        <label for="Female">Female</label>
+        <br><br>
+
+        <label for="State">State: </label>
+        <select name="State" id="State">
+            <option>Select an Option</option>
+            <option value="Kolkata">Kolakata</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Haydrabad">Haydrabad</option>
+            <option value="Pune">Pune</option>
+        </select>
+        <br><br>
+
+        <label for="message">Message:</label> <br>
+        <textarea name="message" id="message" cols="20" rows="3"></textarea> <br><br>
+
+        <input type="checkbox" name="newslatter" id="newslatter" />
+        <label for="newslatter">Tick for Updates</label>
+        <br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
