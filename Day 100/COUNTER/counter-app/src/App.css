@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+font-family: Arial;
+}
+
+.box{
+  font-size: 40px;
+  margin: 20px;
+}
+
+.buttons button{
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: aliceblue;
+  cursor: pointer;
+  border-radius: 14px;
+}
